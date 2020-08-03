@@ -31,6 +31,8 @@
 	<i class="fa fa-whatsapp my-float"></i>
 	</a>
 
+	<link rel="icon" type="image/png" href="demos/burger/images/logo-dark.png"/>
+
 	<!-- Burger Document Title
 	============================================= -->
 	<title>Burguer Place - Hamburgueria</title>
@@ -47,9 +49,18 @@
 
 		<div class="side-panel-wrap">
 
+			<div class="widget">
+
+				<h4 class="font-weight-bold">Download App</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<a href="#"><img src="demos/articles/images/appstore.png" alt="App Link" height="60"></a>
+				<a href="#"><img src="demos/articles/images/googleplay.png" alt="App Link" class="mt-2" height="60"></a>
+
+			</div>
+
 			<div id="q-contact" class="widget quick-contact-widget form-widget">
 
-				<h4>Entre em contato</h4>
+				<h4>Quick Contact</h4>
 				<div class="form-result"></div>
 				<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form nobottommargin">
 					<div class="form-process"></div>
@@ -74,7 +85,7 @@
 
 		<!-- Header
 		============================================= -->
-<header id="header" class="transparent-header dark" data-sticky-class="dark-color" data-sticky-shrink-offset="0">
+		<header id="header" class="transparent-header dark dark-color" data-sticky-class="dark-color" data-sticky-shrink-offset="0">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -102,13 +113,13 @@
 						<nav class="primary-menu">
 
 							<ul class="one-page-menu menu-container" data-easing="easeInOutExpo" data-speed="1250" data-offset="60">
-								<li class="current menu-item"><a class="menu-link" href="./index.html"><div>Início</div></a></li>
+								<li class="current menu-item"><a class="menu-link" href="./index.html" data-href="#slider"><div>Início</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="#" data-href="#story"><div>História</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="./menu_signature.html"><div>Menu</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="./menu_signature.html" data-href="#menu"><div>Menu</div></a></li>								
 								<li class="menu-item"><a class="menu-link" href="#" data-href="#contact" data-offset="20"><div>Contato</div></a></li>
 								<li class="noborder menu-item">
 									<a class="menu-link" href="tel:1155850555">
-										<div style="color:yellow">
+										<div style="color:red">
 											<i class="icon-phone"></i>5585 0555
 												<br><i class="icon-phone"></i>5584 0881</div></a></li>
 								
@@ -122,72 +133,14 @@
 			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
 
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element min-vh-100 page-section slide-img include-header" data-animate="img-to-right" style="background: url('demos/burger/images/hero.jpg') center center no-repeat; background-size: cover;">
-			<div class="slider-inner">
-
-				<div class="vertical-middle">
-					<div class="container dark">
-						<div class="row">
-							<div class="col-lg-6 col-md-8 dotted-bg parallax" data-start="top: 0px; opacity: 1" data-400="top: 50px; opacity: 0.3">
-								<div class="emphasis-title" data-animate="fadeInUp">
-									<div class="before-heading font-secondary color">Venha saborear o melhor</div>
-									<h1 class="font-border">Burguerrrr!</h1>
-								</div>
-								<p class="lead text-white-50" data-animate="fadeInUp" data-delay="100">
-								Seja bem vindo! Somos a Burguer Place! Temos um diversificado cardápio, nossa casa é tradicional, um ambiente agradável, arejado e descontraído. Também entregamos as refeições diretemante até você.
-								</p>
-								<a data-scrollto="#menu" data-easing="easeInOutExpo" data-speed="1250" class="button button-large button-rounded px-4 button-border button-light button-white font-weight-semibold" data-animate="fadeInUp" data-delay="200">Nosso Menu</a>
-								<a href="tel:+55850555" class="button button-large button-rounded px-4 button-reveal d-inline-flex tright font-weight-semibold" data-animate="fadeInUp" data-delay="300"><i class="icon-line-arrow-right"></i><span>Fazer um pedido!</span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section>
-
-		<!-- Content
-		============================================= -->
 		<section id="content" class="dark-color">
 			<div style="position: absolute; top: -13px; left: 0; width: 100%;height: 30px; background: url('demos/burger/images/svg/brush.svg') no-repeat top center / 110% auto; z-index: 2;"></div>
 			<div class="content-wrap p-0">
 
-				<div id="story" class="page-section">
-
-					<div class="section my-0" style="background: #F0ECE7 url('demos/burger/images/icon-bg.png') repeat center center;">
-						<div class="container">
-							<div class="center bottommargin mx-auto" style="max-width: 700px">
-								<div class="before-heading font-primary color">Nossa História</div>
-								<h1 class="font-secondary display-4 font-weight-bold">Burguers como os nossos?! <br>Você não vai achar em outro lugar!</h1>
-								<p class="lead">
-								Em 1982, há cerca de 38 anos a Familía Focá inaugurava sua primeira Hamburgueria na zona norte da capital com o nome de Pipo´s Hamburguer, o sucesso veio junto com essa inauguração e em menos de 5 anos já existiam 3 casas preparando o melhor Hamburguer da zona norte.
-								<p> Essa idéia foi passada de pai para filho e em nov/2006 foi inaugurada a primeira loja de seus pupilos, localizada agora na zona sul da capital e batizada com o nome de Burguer Place.
-								</p>
-								<p>Uma casa bem montada na Rua Dr Bacelar, 926 no bairro da Vila clementino começou a chamar a atenção dos clientes que por ali passavam e que podiam experimentar um excelente Hamburguer artezanal e de qualidade ímpar.
-								</p><p>Logo a Hamburgueria Burguer Place foi virando um point dos moradores da região da Vila Mariana, do Bairro do Klabin e da charmosa Moema, conquistando a todo momento clientes com um paladar apurado e exigente.
-								</p><p>O preparo do Hamburguer é todo feito na própria Hamburgueria que se ultiliza dos melhores produtos do mercado, desenvolvendo Hamburgueres de carne bovina, Frango, Calabresa, Picanha e até vegetariano. O cardápio ainda possui uma variedade enorme de lanches, Beirutes, Pratos rápidos, Saladas, Massas, Porções, Sopas e cremes no pão italiano, Bebidas, Sorvetes e Sobremesas.
-								</p><p>O sucesso foi tão grande que em jul/2011 o bairro do Ipiranga foi presenteado com a mais nova unidade do Burguer Place que abriu suas portas na Rua Agostinho Gomes nº 1701.
-								</p><p>Se você ainda não conhece a Hamburgueria Burguer Place, não deixe de conhecer pois tenho certeza que você irá se apaixonar!</p>
-								</p>
-								<a href="https://www.freepik.com" class="d-block op-05">Designed by Freepik</a>
-
-								<div class="card mx-auto my-5 slide-img border-0" style="max-width: 450px" data-animate="img-to-left">
-									<img src="demos/burger/images/others/chef.jpg" class="card-img" alt="...">
-									<div class="card-img-overlay dotted-bg dotted-bg-light d-flex align-items-center justify-content-center">
-										<a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" data-lightbox="iframe" class="stretched-link display-3 text-white image_fade"><i class="icon-play-circle"></i></a>
-									</div>
-								</div>
-
-								<img src="demos/burger/images/svg/items.svg" alt="All Items">
-							</div>
-						</div>
-					</div>
+				<div class="clear"></div>
 
 					<div class="section m-0 p-0">
 						<div class="row align-items-stretch clearfix">
-
 
 							<div class="item-categories overflow-hidden col-md-4 dark col-padding position-relative" style="background-color: #0A0A0A;">
 								<div class="cat-img"><img  data-animate="fadeInRight" src="demos/burger/images/cat/1.png" alt="Category Image"></div>
@@ -246,92 +199,364 @@
 									<a href="#" data-scrollto="#menu" data-easing="easeInOutExpo" data-speed="1250" class="button button-rounded px-4 button-border button-light button-white font-weight-semibold ml-0">Ver Drinks</a>
 								</div>
 							</div>													
-
 						</div>
 					</div>
 
-					<div class="section dark-color m-0 p-0">
-						<img src="demos/burger/images/others/section-1.jpg" alt="Section Image">
-						<div class="container dark">
-							<div class="center bottommargin-lg">
-								<div class="before-heading font-secondary color">Qualidade premium</div>
-								<h1 class="font-border display-4 ls1 font-weight-bold">Ingredientes</h1>
-							</div>
+				<div id="menu" class="page-section">
+					<div class="section mb-0" style="background: linear-gradient(to bottom, #101010, transparent, #101010), url('demos/burger/images/others/section-2.jpg') no-repeat center top / cover;">
 
-							<div class="clear"></div>
-
+						<div class="container">
 							<div class="row align-items-center">
-
-								<div class="col-lg-4 col-md-6">
-
-									<div class="feature-box px-0" data-animate="fadeInLeft">
-										<div class="fbox-content">
-											<h3 class="color"><i class="icon-check-circle"></i> Pães dos Burgers</h3>
-											<p>Trabalhamos com as mais conceituadas panificadoras de São Paulo, com reposição frequente dos pães.
-											</p>
+								<div class="col-md-5 dark order-2 order-md-1">
+									<div class="bottommargin">
+										<div class="before-heading font-secondary color mb-2">Signature</div>
+										<div class="d-flex align-items-center dotted-bg">
+											<img src="demos/burger/images/svg/burger.svg" alt="" width="60">
+											<h1 class="font-border display-4 ls1 font-weight-bold mb-0  ml-3">Burguers</h1>
 										</div>
 									</div>
 
-									<div class="feature-box pl-5 pr-0 topmargin-lg" data-animate="fadeInLeft" data-delay="
-									100">
-										<div class="fbox-content">
-											<h3 class="color"><i class="icon-check-circle"></i> Vegetais frescos</h3>
-											<p>Nosso hortifruti é rigorosamente selecionado, com reposição de 3 a 4 vezes por semana.
-											</p>
+									<div class="clear"></div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/mini.jpg">
+										<div class="price-header">
+											<div class="price-name color">Special Burguer Place</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$37,50</div>
 										</div>
+										<p class="price-desc">Pão preto com hambúrguer de carne de 180g, queijo da casa, bacon, alface americana, tomate e maionese da casa.</p>
 									</div>
 
-									<div class="feature-box pl-2 pr-0 topmargin-lg" data-animate="fadeInLeft" data-delay="
-									200">
-										<div class="fbox-content">
-											<h3 class="color"><i class="icon-check-circle"></i> Nossa carne</h3>
-											<p>Trabalhamos diretamente com os maiores e mais respeitados frigoríficos de São Paulo. Recebemos carnes de qualidade, para entregar 
-											o melhor sabor na sua mesa.
-											</p>
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/double.jpg">
+										<div class="price-header">
+											<div class="price-name color">ROCKY BURGER</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$35,50</div>
 										</div>
+										<p class="price-desc">Brioche tostadinho com manteiga de blue cheese, com hamburguer de carne de 180g, queijo da casa, cebola glaceada com tabasco, rúcula, rodelas de tomate e maionese da casa.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/turkish.jpg">
+										<div class="price-header">
+											<div class="price-name color">MANHATTAN BURGER</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$37,50</div>
+										</div>
+										<p class="price-desc">Brioche, tostadinho com manteiga de blue cheese, hamburguer de carne de 180g, queijo da casa, bacon, rúcula, tomate e molho secreto.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/veggie.jpg">
+										<div class="price-header">
+											<div class="price-name color">PIC BURGER CHEDDAR</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$34,50</div>
+										</div>
+										<p class="price-desc">Pão australiano, hamburguer de carne de 180g, cebola na chapa, queijo cheddar e rodelas de tomate.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/veggie.jpg">
+										<div class="price-header">
+											<div class="price-name color">DOUBLE X-BURGER SALADA</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$39,90</div>
+										</div>
+										<p class="price-desc">Pão de hamburguer, 2 hamburguers da casa de 130g., queijo da casa, alface, tomate e nosso molho secreto.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/veggie.jpg">
+										<div class="price-header">
+											<div class="price-name color">CHILLI BURGER</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$37,50</div>
+										</div>
+										<p class="price-desc">Pão australiano, hamburguer de carne de 180g., cebola glaceada no tabasco, chilli de carne e queijo cheddar (para comer com talher).</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/veggie.jpg">
+										<div class="price-header">
+											<div class="price-name color">ITALIAN BURGER</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$31,50</div>
+										</div>
+										<p class="price-desc">Pão integral, hamburguer da casa de 130g., mussarela de búfala, lascas de parmesão, tomate seco, rúcula e maionese de manjericão.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/veggie.jpg">
+										<div class="price-header">
+											<div class="price-name color">VEGGIE BURGER </div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$31,50</div>
+										</div>
+										<p class="price-desc">Pão preto, nossa veggie burger, mussarela de búfala, rúcula e tomate seco.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/veggie.jpg">
+										<div class="price-header">
+											<div class="price-name color">AUSTRALIAN BURGER</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$36,00</div>
+										</div>
+										<p class="price-desc">Pão australiano, hamburguer de carne de 180g., queijo mussarela, blue cheese, tomate, cebola roxa e molho barbecue servido à parte.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/veggie.jpg">
+										<div class="price-header">
+											<div class="price-name color">TRIO MINI BURGUER</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$34,00</div>
+										</div>
+										<p class="price-desc">X-Salada / X-Cheddar / X-Bacon acompanhados de molho secreto e maionese de manjericão.</p>
 									</div>
 
 								</div>
 
-								<div class="col-lg-4 d-md-none d-lg-block center slide-img" data-animate="img-to-bottom">
-									<img src="demos/burger/images/others/section-3.jpg" alt="iphone 2">
+								<div class="col-md-6 center order-1 order-md-2" data-animate="zoomIn faster">
+									<img src="demos/burger/images/others/burger.png" alt="Image" class="parallax price-img mb-5 mb-md-0" data-top-bottom="transform:translateY(-30px)" data-bottom-top="transform:translateY(140px)">
 								</div>
-
-								<div class="col-lg-4 col-md-6">
-
-									<div class="feature-box pl-5 pr-0" data-animate="fadeInRight">
-										<div class="fbox-content">
-											<h3 class="color"><i class="icon-check-circle"></i> Artesanal</h3>
-											<p>Nossos hamburgueres são exclusivos. Trabalhamos com profissionais dedicados ao preparo das carnes, molhos e temperos.</p>
-										</div>
-									</div>
-
-									<div class="feature-box px-0 topmargin-lg" data-animate="fadeInRight" data-delay="
-									100">
-										<div class="fbox-content">
-											<h3 class="color"><i class="icon-check-circle"></i> Vegetarianos</h3>
-											<p>Temos em nosso cardápio, opção de hamburguer vegetariano. Em um blend exclusivo, artesanal, preparados por nosso time.
-											</p>
-										</div>
-									</div>
-
-									<div class="feature-box pl-3 pr-0 topmargin-lg" data-animate="fadeInRight" data-delay="
-									200">
-										<div class="fbox-content">
-											<h3 class="color"><i class="icon-check-circle"></i> Smash burguers</h3>
-											<p>Nosso blend exclusivo de Smash vai te surpreender. Como tudo na Burguer Place, nossos Smashs também são 100% artesanais. 
-											</p>
-										</div>
-									</div>
-
-								</div>
-
 							</div>
 						</div>
-					</div>
-				</div>
 
-				<div class="clear"></div>
+					</div>
+
+					<div id="menu-snacks" class="section m-0" style="background: linear-gradient(to bottom, #101010, rgba(16,16,16,0.3),#101010), url('demos/burger/images/others/section-5.jpg') no-repeat center top / cover;">
+
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-md-6 offset-md-1" data-animate="zoomIn faster">
+									<img src="demos/burger/images/others/snacks.png" alt="" class="parallax price-img mb-5 mb-md-0" data-top-bottom="transform:translateY(-30px)" data-bottom-top="transform:translateY(140px)">
+								</div>
+
+								<div class="col-md-5 dark">
+									<div class="bottommargin">
+										<div class="before-heading font-secondary color mb-3">Classic</div>
+										<div class="d-flex align-items-center dotted-bg">
+											<img src="demos/burger/images/svg/snacks.svg" alt="" width="70">
+											<h1 class="font-border display-4 ls1 font-weight-bold mb-0 ml-3">Sandwich</h1>
+										</div>
+									</div>
+
+									<div class="clear"></div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/hot-dog.jpg">
+										<div class="price-header">
+											<div class="price-name color">X-SALADA</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$25,50</div>
+										</div>
+										<p class="price-desc">Pão de hamburguer, hamburguer da casa de 130g., queijo da casa, alface, tomate e maionese da casa.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/chicken-wrap.jpeg">
+										<div class="price-header">
+											<div class="price-name color">X-FRANGO SALADA LIGHT</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$25,50</div>
+										</div>
+										<p class="price-desc">Pão de hamburguer, hamburguer de frango de 120g, queijo  fresco, alface, tomate e maionese de manjericão servida à parte.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/rice-bowl.jpg">
+										<div class="price-header">
+											<div class="price-name color">X-TUDO</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$37,90</div>
+										</div>
+										<p class="price-desc">Pão de hamburguer, hamburguer da casa de 130g, queijo da casa, ovo, bacon, alface, tomate, maionese, vinagrete e cebola.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/salad.jpg">
+										<div class="price-header">
+											<div class="price-name color">PASTA DE ATUM</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$17,50</div>
+										</div>
+										<p class="price-desc">Pão Integral, patê de atum, queijo fresco, alface e tomate seco.</p>
+									</div>
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/salad.jpg">
+										<div class="price-header">
+											<div class="price-name color">MINAS NA CHAPA</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$16,50</div>
+										</div>
+										<p class="price-desc">Pão integral, queijo minas, tomate e orégano.</p>
+									</div>
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/salad.jpg">
+										<div class="price-header">
+											<div class="price-name color">AMERICANO</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$20,50</div>
+										</div>
+										<p class="price-desc">Pão de hamburguer, ovo frito na manteiga, presunto, tomate e cebola.</p>
+									</div>
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/salad.jpg">
+										<div class="price-header">
+											<div class="price-name color">LIGHT</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$19,50</div>
+										</div>
+										<p class="price-desc">Pão integral, peito de peru, queijo fresco, alface, cenoura e tomate seco.</p>
+									</div>
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/salad.jpg">
+										<div class="price-header">
+											<div class="price-name color">MISTO QUENTE</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$16,90</div>
+										</div>
+										<p class="price-desc">Pão de hamburguer, queijo da casa e presunto.</p>
+									</div>
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/salad.jpg">
+										<div class="price-header">
+											<div class="price-name color">X - DOG</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$19,50</div>
+										</div>
+										<p class="price-desc">Pão de hamburguer, salsicha, queijo da casa e maionese.</p>
+									</div>
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/salad.jpg">
+										<div class="price-header">
+											<div class="price-name color">BEIRUTE LIGHT</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$37,50</div>
+										</div>
+										<p class="price-desc">Pão sírio, filé de frango, queijo fresco, alface, tomate e cebola.</p>
+									</div>
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/salad.jpg">
+										<div class="price-header">
+											<div class="price-name color">BEIRUTE DA HORA</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$48,00</div>
+										</div>
+										<p class="price-desc">Pão sírio, filé mignon, queijo da casa, ovo, presunto, alface, tomate e molho tártaro.</p>
+									</div>
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/snacks/salad.jpg">
+										<div class="price-header">
+											<div class="price-name color">BEIRUTE BURGUER PLACE</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$49,50</div>
+										</div>
+										<p class="price-desc">Pão sírio, filé mignon, queijo da casa, presunto, bacon, ovo, alface, tomate, cebola e maionese da casa.</p>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="section mb-0" style="background: linear-gradient(to bottom, #101010, transparent, #101010), url('demos/burger/images/others/section-2.jpg') no-repeat center top / cover;">
+
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-md-5 dark order-2 order-md-1">
+									<div class="bottommargin">
+										<div class="before-heading font-secondary color mb-2">Smash</div>
+										<div class="d-flex align-items-center dotted-bg">
+											<img src="demos/burger/images/svg/burger.svg" alt="" width="60">
+											<h1 class="font-border display-4 ls1 font-weight-bold mb-0  ml-3">Burguers</h1>
+										</div>
+									</div>
+
+									<div class="clear"></div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/mini.jpg">
+										<div class="price-header">
+											<div class="price-name color">Smash Vegas</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$34,50</div>
+										</div>
+										<p class="price-desc">Pão preto com hambúrguer de carne de 180g, queijo da casa, bacon, alface americana, tomate e maionese da casa.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/double.jpg">
+										<div class="price-header">
+											<div class="price-name color">Smash Burguer Place</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$35,50</div>
+										</div>
+										<p class="price-desc">Brioche tostadinho com manteiga de blue cheese, com hamburguer de carne de 180g, queijo da casa, cebola glaceada com tabasco, rúcula, rodelas de tomate e maionese da casa.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/turkish.jpg">
+										<div class="price-header">
+											<div class="price-name color">Double Smash Vegas</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$37,50</div>
+										</div>
+										<p class="price-desc">Brioche, tostadinho com manteiga de blue cheese, hamburguer de carne de 180g, queijo da casa, bacon, rúcula, tomate e molho secreto.</p>
+									</div>
+
+									<div class="price-menu-warp img-hover-block" data-img="demos/burger/images/menu-items/burgers/veggie.jpg">
+										<div class="price-header">
+											<div class="price-name color">Double Smash Burguer Place</div>
+											<div class="price-dots">
+												<span class="separator-dots"></span>
+											</div>
+											<div class="price-price">R$34,50</div>
+										</div>
+										<p class="price-desc">Pão australiano, hamburguer de carne de 180g, cebola na chapa, queijo cheddar e rodelas de tomate.</p>
+									</div>
+
+
+								</div>
+
+								<div class="col-md-6 center order-1 order-md-2" data-animate="zoomIn faster">
+									<img src="demos/burger/images/others/burger.png" alt="Image" class="parallax price-img mb-5 mb-md-0" data-top-bottom="transform:translateY(-30px)" data-bottom-top="transform:translateY(140px)">
+								</div>
+							</div>
+						</div>
+
+					</div>					
+				</div>
 
 				<div class="section dark my-0" style="padding: 60px 0 120px; background: linear-gradient(to bottom, #101010, transparent), url('demos/burger/images/icon-bg-white.png') repeat center center;">
 					<div class="container mx-auto" style="max-width: 1000px">
@@ -349,39 +574,6 @@
 						</div>
 					</div>
 				</div>
-
-				<div id="contact" class="section page-section dark m-0 pb-0 pb-md-5 slide-img" data-animate="img-to-left" style="background: #101010 url('demos/burger/images/icon-bg-white.png') repeat center center;">
-					<div class="container pt-3 pb-4">
-						<div class="row">
-							<div class="col-sm-5"  style="line-height: 1.7; z-index: 1">
-								<address class="d-block mb-5">
-									<div class="font-secondary h5 mb-2 color">Endereço:</div>
-									<span class="h6 text-white ls1 font-weight-normal font-primary">
-										São Paulo<br>
-										Rua Dr. Bacelar 926, Vila Clementino<br>
-										CEP: 04026-002
-									</span>
-								</address>
-								<div class="font-secondary h5 mb-2 color">Telefones:</div>
-								<p><a href="tel:1155850555" class="d-block h6 text-white ls1 font-weight-normal font-primary mb-5">5585 0555</a></p>
-								<p><a href="tel:1155840881" class="d-block h6 text-white ls1 font-weight-normal font-primary mb-5">5584 0881</a></p>
-								<p><a href="tel:55119983-8063" class="d-block h6 text-white ls1 font-weight-normal font-primary mb-5">99837-8063</a></p>
-
-								<div class="font-secondary h5 mb-2 color">Email:</div>
-								<a href="mailto:contato@burguerplace.com.br?Subject=Hello%20again" class="d-block h6 text-white ls1 font-weight-normal font-primary mb-5">contato@burguerplace.com.br</a>
-
-								<div class="font-secondary h5 mb-2 color">Horários:</div>
-								<div class="h6 text-white ls1 font-weight-normal font-primary">Seg-qui 11:00am - 23:30pm</div>
-								<div class="h6 text-white ls1 font-weight-normal font-primary">Sex-sab 11:00am - 00:00pm</div>
-								<div class="h6 text-white ls1 font-weight-normal font-primary">Dom 13:00pm - 23:00pm</div>
-								
-							</div>
-						</div>
-					</div>
-					<div id="map" class="gmap mt-5 mt-md-0" data-address="Rua Doutor Bacelar, 926 - Vila Clementino, São Paulo - State of São Paulo" data-styles='[{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#666666"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":10}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]' data-zoom="14" data-icon='{image: "demos/burger/images/svg/hamburger-marker.svg",iconsize: [40, 36],iconanchor: [40,36]}' data-maptype="ROADMAP" data-content='<div class="text-dark" style="width: 300px;"><h4 class="text-dark" style="margin-bottom: 8px;">Hi, we are <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>'></div>
-					
-				</div>
-
 			</div>
 
 		</section><!-- #content end -->
@@ -498,22 +690,12 @@
 
 						<div class="col-md-6 text-center text-md-right">
 							<div class="d-flex justify-content-center justify-content-md-end">
-								<a href="#" class="social-icon si-small si-colored nobottommargin si-facebook">
+								<a href="https://www.facebook.com/burguerplace" class="social-icon si-small si-colored nobottommargin si-facebook">
 									<i class="icon-facebook"></i>
 									<i class="icon-facebook"></i>
 								</a>
 
-								<a href="#" class="social-icon si-small si-colored nobottommargin si-twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-colored nobottommargin si-pinterest">
-									<i class="icon-pinterest"></i>
-									<i class="icon-pinterest"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-colored nobottommargin si-instagram">
+								<a href="https://instagram.com/burguerplace" class="social-icon si-small si-colored nobottommargin si-instagram">
 									<i class="icon-instagram"></i>
 									<i class="icon-instagram"></i>
 								</a>
@@ -524,7 +706,6 @@
 
 				</div>
 			</div><!-- #copyrights end -->
-		
 		</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->
@@ -538,7 +719,7 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.min.js"></script>
 	<script src="demos/burger/js/hover-animate.js"></script>
-	<script src="https://maps.google.com/maps/api/js?key=AIzaSyBcvRl7dsXXfflKYbwjzoN7-6e6JLCSoeA"></script>
+	<script src="https://maps.google.com/maps/api/js?key=YOUR-API-KEY"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
